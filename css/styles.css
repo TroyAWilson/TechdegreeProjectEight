@@ -6,6 +6,7 @@ body {
   font-weight: 300;
   color: #111;
   background: #edeff0;
+  background-image: url(../svgs/background.svg);
 }
 
 #container {
@@ -59,4 +60,42 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+
+.main-nav{
+  list-style: none;
+  display: flex;
+  width: 100%;
+}
+.main-nav li {
+  display: flex;
+  margin: 10px;
+  color: #40ADCF;
+  transition: color .5s;
+  font-weight: bold;
+}
+
+.main-nav li:hover{
+  color: lightblue;
+}
+
+.logo{
+  width: 140px;
+  height: 120px;
+}
+.small-logo{
+  display: none;
+}
+.sable{
+color:#B97F5B;
+}
+ #corgi .body{
+  fill:currentColor;
+}
+.fawn{
+  color:#E9AA82;
+}
+.red{
+  color:#834B29;
 }
