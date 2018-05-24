@@ -75,11 +75,10 @@ footer {
   transition: color .5s;
   font-weight: bold;
 }
+.main-nav  li:hover {
+  color:#F3C6A8;
 
-.main-nav li:hover{
-  color: lightblue;
 }
-
 .logo{
   width: 140px;
   height: 120px;
@@ -98,4 +97,14 @@ color:#B97F5B;
 }
 .red{
   color:#834B29;
+}
+#heart-icon{
+  transform: scale(.60) translate(20px, -5px);
+  fill:currentColor;
+}
+.visit-icon{
+  transform: scale(.60) translate(20px, -5px);
+}
+.contact-icon{
+transform: scale(.60) translate(20px, -5px);
 }
