@@ -75,13 +75,13 @@ footer {
   transition: color .5s;
   font-weight: bold;
 }
-.main-nav  li:hover {
-  color:#F3C6A8;
-
-}
 .logo{
   width: 140px;
   height: 120px;
+  transition: .5s cubic-bezier(0,1.1,.99,1.61);
+}
+.logo:hover{
+  transform: rotate(15deg) scale(1.1);
 }
 .small-logo{
   display: none;
@@ -98,13 +98,77 @@ color:#B97F5B;
 .red{
   color:#834B29;
 }
-#heart-icon{
-  transform: scale(.60) translate(20px, -5px);
+
+/*
+
+Hear Icon Styles
+
+ */
+#heart .heart-color{
   fill:currentColor;
 }
-.visit-icon{
-  transform: scale(.60) translate(20px, -5px);
+#heart{
+  transform:scale(.60) translate(20px);
 }
-.contact-icon{
-transform: scale(.60) translate(20px, -5px);
+.heart-div{
+  display: flex;
+  transition:.5s;
+  color: #40ADCF;
+}
+.heart-div:hover{
+  color:#F3C6A8;
+  transform:scale(1.1);
+ }
+.heart-div:hover li{
+  color:#F3C6A8;
+}
+
+/*
+
+Visit icon Styles
+
+*/
+.visit-div{
+  display: flex;
+  transition:.5s;
+  color: #40ADCF;
+}
+.visit-div:hover{
+  color:#F3C6A8;
+  transform:scale(1.1);
+}
+.visit-div:hover li{
+  color:#F3C6A8;
+}
+#visit{
+  transform: scale(.60) translate(20px);
+}
+#visit .visit-color{
+  fill:currentColor;
+}
+
+
+/*
+
+Contact Icon Styles
+
+*/
+
+.contact-div{
+  display: flex;
+  transition: .5s;
+  color: #40ADCF;
+}
+.contact-div:hover{
+  color:#F3C6A8;
+  transform:scale(1.1);
+}
+.contact-div:hover li{
+  color:#F3C6A8;
+}
+#contact{
+  transform: scale(.60) translate(20px);
+}
+#contact .contact-color{
+  fill:currentColor;
 }
