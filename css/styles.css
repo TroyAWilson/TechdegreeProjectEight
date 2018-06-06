@@ -172,3 +172,14 @@ Contact Icon Styles
 #contact .contact-color{
   fill:currentColor;
 }
+
+
+
+/* Media Query */
+
+@media (max-width:425px){
+  .logo{display:none;}
+  .small-logo{
+    display: block;
+  }
+}
