@@ -75,17 +75,7 @@ footer {
   transition: color .5s;
   font-weight: bold;
 }
-.logo{
-  width: 140px;
-  height: 120px;
-  transition: .5s cubic-bezier(0,1.1,.99,1.61);
-}
-.logo:hover{
-  transform: rotate(15deg) scale(1.1);
-}
-.small-logo{
-  display: none;
-}
+
 .sable{
 color:#B97F5B;
 }
@@ -173,13 +163,26 @@ Contact Icon Styles
   fill:currentColor;
 }
 
+.logo{display:none;}
+.small-logo{
+  display: block;
+}
 
 
 /* Media Query */
 
-@media (max-width:425px){
-  .logo{display:none;}
+@media (min-width:426px){
+
+  .logo{
+    display: inline-block;
+    width: 140px;
+    height: 120px;
+    transition: .5s cubic-bezier(0,1.1,.99,1.61);
+  }
+  .logo:hover{
+    transform: rotate(15deg) scale(1.1);
+  }
   .small-logo{
-    display: block;
+    display: none;
   }
 }
